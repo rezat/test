@@ -16,7 +16,9 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         NSLog(@"Hello Dear Mohsen");
-
+        for (int i=0; i<3; i++) {
+            NSLog(@"this is going to make a conflict");
+        }
         NSLog(@"Hello Dear Reza");
 
     }
